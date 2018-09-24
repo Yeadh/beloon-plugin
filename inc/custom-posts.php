@@ -30,13 +30,13 @@ function nextgreen_custom_post_type() {
         ),
 
         'description'        => __( 'Description.', 'nextgreen' ),
-        'menu_icon'          => 'dashicons-welcome-write-blog',
+        'menu_icon'          => 'dashicons-format-gallery',
         'public'             => true,
         'show_in_menu'       => true,
         'has_archive'        => false,
         'hierarchical'       => false,
         'rewrite'            => array( 'slug' => 'slider' ),
-        'supports'           => array( 'title', 'editor', 'thumbnail' )
+        'supports'           => array( 'title', 'excerpt', 'thumbnail' )
     ));
 
     //portfolio
