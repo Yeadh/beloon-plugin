@@ -37,7 +37,7 @@ function beloon_custom_post_type() {
         'has_archive'        => false,
         'hierarchical'       => true,
         'rewrite'            => array( 'slug' => 'portfolio' ),
-        'supports'           => array( 'title', 'thumbnail' )
+        'supports'           => array( 'title', 'editor', 'thumbnail' )
     ));
 
     // portfolio taxonomy
